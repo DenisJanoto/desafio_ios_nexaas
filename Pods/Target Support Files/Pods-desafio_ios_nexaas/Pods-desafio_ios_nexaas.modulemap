@@ -1,0 +1,6 @@
+framework module Pods_desafio_ios_nexaas {
+  umbrella header "Pods-desafio_ios_nexaas-umbrella.h"
+
+  export *
+  module * { export * }
+}
