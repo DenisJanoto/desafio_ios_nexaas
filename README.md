@@ -2,6 +2,9 @@
 
 Projeto realizado para o desafio ios developer da empresa nexaas - Desenvolvido apenas para fins de estudos.
 
+# Fncionamento
+Neste projeto é buscado via api os repositórios mais populares do githut.
+
 ## Imagens Demonstrativas da Aplicação
 
 <p align="center">
@@ -12,6 +15,6 @@ Projeto realizado para o desafio ios developer da empresa nexaas - Desenvolvido 
 ## Features
 - Xcode 12 Swift 5.3
 - MVC
-- Info dos repositórios públicos mais populares do git buscados via API
+- Api services com implementação nativa
 - Implementação darkmode
 - Paginação infinitada tableview
