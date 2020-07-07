@@ -3,7 +3,14 @@
 Projeto realizado para o desafio ios developer da empresa nexaas - Desenvolvido apenas para fins de estudos.
 
 ## Objetivo
-Neste projeto é buscado via api os repositórios mais populares do githut.
+Busacar via api os repositórios mais populares do githut.
+
+## Features
+- Xcode 12 Swift 5.3
+- MVC
+- Api services com implementação nativa
+- Implementação darkmode
+- Paginação infinitada tableview
 
 ## Imagens Demonstrativas da Aplicação
 
@@ -12,9 +19,3 @@ Neste projeto é buscado via api os repositórios mais populares do githut.
   &emsp;
 </p>
 
-## Features
-- Xcode 12 Swift 5.3
-- MVC
-- Api services com implementação nativa
-- Implementação darkmode
-- Paginação infinitada tableview
