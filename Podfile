@@ -7,5 +7,5 @@ target 'desafio_ios_nexaas' do
 
   # Pods for desafio_ios_nexaas
 pod 'Alamofire', '~> 5.1'
-
+pod 'Kingfisher', '~> 5.13.4'
 end

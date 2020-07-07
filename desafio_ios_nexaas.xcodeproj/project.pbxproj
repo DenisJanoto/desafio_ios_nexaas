@@ -3,18 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		26474C28170DE16FC36992FC /* Pods_desafio_ios_nexaas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A12D944F40D09DA17B93C0 /* Pods_desafio_ios_nexaas.framework */; };
 		9209FDF524B36CAA004887A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9209FDF424B36CAA004887A3 /* AppDelegate.swift */; };
 		9209FDF724B36CAA004887A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9209FDF624B36CAA004887A3 /* SceneDelegate.swift */; };
-		9209FDF924B36CAA004887A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9209FDF824B36CAA004887A3 /* ViewController.swift */; };
 		9209FDFC24B36CAA004887A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9209FDFA24B36CAA004887A3 /* Main.storyboard */; };
 		9209FDFF24B36CAA004887A3 /* desafio_ios_nexaas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9209FDFD24B36CAA004887A3 /* desafio_ios_nexaas.xcdatamodeld */; };
 		9209FE0124B36CAF004887A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9209FE0024B36CAF004887A3 /* Assets.xcassets */; };
 		9209FE0424B36CAF004887A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9209FE0224B36CAF004887A3 /* LaunchScreen.storyboard */; };
+		9209FE1824B37E19004887A3 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9209FE1724B37E19004887A3 /* CustomTableViewCell.swift */; };
+		9209FE1A24B37E29004887A3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9209FE1924B37E29004887A3 /* MainViewController.swift */; };
+		9274F37024B3C1E500EAFF8C /* network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9274F36F24B3C1E500EAFF8C /* network.swift */; };
+		9274F37224B3C21C00EAFF8C /* apiDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9274F37124B3C21C00EAFF8C /* apiDecoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,12 +26,15 @@
 		9209FDF124B36CAA004887A3 /* desafio_ios_nexaas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafio_ios_nexaas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9209FDF424B36CAA004887A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9209FDF624B36CAA004887A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9209FDF824B36CAA004887A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9209FDFB24B36CAA004887A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9209FDFE24B36CAA004887A3 /* desafio_ios_nexaas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = desafio_ios_nexaas.xcdatamodel; sourceTree = "<group>"; };
 		9209FE0024B36CAF004887A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9209FE0324B36CAF004887A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9209FE0524B36CAF004887A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9209FE1724B37E19004887A3 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		9209FE1924B37E29004887A3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9274F36F24B3C1E500EAFF8C /* network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = network.swift; sourceTree = "<group>"; };
+		9274F37124B3C21C00EAFF8C /* apiDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiDecoder.swift; sourceTree = "<group>"; };
 		D37009FAF9DADDD5D7BECC31 /* Pods-desafio_ios_nexaas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio_ios_nexaas.debug.xcconfig"; path = "Target Support Files/Pods-desafio_ios_nexaas/Pods-desafio_ios_nexaas.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +64,6 @@
 				D37009FAF9DADDD5D7BECC31 /* Pods-desafio_ios_nexaas.debug.xcconfig */,
 				4F7E88BA28E6567898F667BF /* Pods-desafio_ios_nexaas.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,9 +88,11 @@
 		9209FDF324B36CAA004887A3 /* desafio_ios_nexaas */ = {
 			isa = PBXGroup;
 			children = (
+				9209FE0F24B37DDC004887A3 /* Model */,
+				9209FE0E24B37DD8004887A3 /* View */,
+				9209FE0D24B37DC6004887A3 /* Controller */,
 				9209FDF424B36CAA004887A3 /* AppDelegate.swift */,
 				9209FDF624B36CAA004887A3 /* SceneDelegate.swift */,
-				9209FDF824B36CAA004887A3 /* ViewController.swift */,
 				9209FDFA24B36CAA004887A3 /* Main.storyboard */,
 				9209FE0024B36CAF004887A3 /* Assets.xcassets */,
 				9209FE0224B36CAF004887A3 /* LaunchScreen.storyboard */,
@@ -93,6 +100,31 @@
 				9209FDFD24B36CAA004887A3 /* desafio_ios_nexaas.xcdatamodeld */,
 			);
 			path = desafio_ios_nexaas;
+			sourceTree = "<group>";
+		};
+		9209FE0D24B37DC6004887A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9274F36F24B3C1E500EAFF8C /* network.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9209FE0E24B37DD8004887A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9209FE1924B37E29004887A3 /* MainViewController.swift */,
+				9209FE1724B37E19004887A3 /* CustomTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9209FE0F24B37DDC004887A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9274F37124B3C21C00EAFF8C /* apiDecoder.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,10 +242,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9209FDF924B36CAA004887A3 /* ViewController.swift in Sources */,
+				9274F37224B3C21C00EAFF8C /* apiDecoder.swift in Sources */,
 				9209FDF524B36CAA004887A3 /* AppDelegate.swift in Sources */,
 				9209FDF724B36CAA004887A3 /* SceneDelegate.swift in Sources */,
+				9209FE1824B37E19004887A3 /* CustomTableViewCell.swift in Sources */,
 				9209FDFF24B36CAA004887A3 /* desafio_ios_nexaas.xcdatamodeld in Sources */,
+				9274F37024B3C1E500EAFF8C /* network.swift in Sources */,
+				9209FE1A24B37E29004887A3 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
