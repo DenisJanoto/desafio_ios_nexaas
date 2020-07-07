@@ -2,7 +2,7 @@
 
 Projeto realizado para o desafio ios developer da empresa nexaas - Desenvolvido apenas para fins de estudos.
 
-# Fncionamento
+## Funcionamento
 Neste projeto é buscado via api os repositórios mais populares do githut.
 
 ## Imagens Demonstrativas da Aplicação
