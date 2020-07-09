@@ -3,7 +3,7 @@
 Projeto realizado para o desafio ios developer da empresa nexaas - Desenvolvido apenas para fins de estudos.
 
 ## Objetivo
-Busacar via api os repositórios mais populares do githut.
+Buscar via api os repositórios mais populares do githut.
 
 ## Features
 - Xcode 12 Swift 5.3
